@@ -29,3 +29,8 @@ p {
   position: relative;
   top: -16px;
 }
+
+.madeBy {
+  font-size: 14px;
+  padding-left: 49px;
+}
