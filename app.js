@@ -2,6 +2,7 @@ function searchCity(event) {
   event.preventDefault();
   let cities = document.querySelector(".citySearch");
   let city = cities.value;
+
   let key = "ab859d32ae4bbdc8f3eaa28b40210b92";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
   axios.get(apiUrl).then(showWeather);
